@@ -8,10 +8,10 @@ base = 'https://yts.mx/api/v2/'
 list_url = 'list_movies.json'
 query = 'query_term='
 
-connection_info = dict(host='192.168.1.123',
+connection_info = dict(host='127.0.0.1',
                        port='8080',
-                       username='cryption',
-                       password='Rasengan')
+                       username='admin',
+                       password='password')
 qb = qbittorrentapi.Client(**connection_info, VERIFY_WEBUI_CERTIFICATE=False)
 
 try:
