@@ -1,6 +1,6 @@
 #!../apivenv/bin/python3
 
-from MyModules import *
+from Modules import *
 
 
 if __name__ == '__main__':
