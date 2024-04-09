@@ -1,9 +1,10 @@
-# Movies_to_torrent
-A simple program that searches for movies using YTS API , downloads its .torrent file and then automatically starts to download it using qbittorrent web ui.
----
 # DON'T USE THIS
 This program has very confusing code. I had zero idea going into this program on how to propperly order and reuse my code.
-I have created a new repo https://github.com/Rorailer/xyz use this instead
+I have created a new repo https://github.com/Rorailer/Movies_to_Torrent_V2 use this instead
+---
+# Movies_to_torrent
+A simple program that searches for movies using YTS API , downloads its .torrent file and then automatically starts to download it using qbittorrent web ui.
+
 ---
 ## Replace user and password
 In Modules.py replace 'user' and 'password' with the username and password of your qbittorrent webui.
