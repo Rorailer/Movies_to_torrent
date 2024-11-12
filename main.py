@@ -74,12 +74,12 @@ if __name__ == '__main__':
                     # Call functions to download and manage the movie torrent
                     info = search_by_id(table[int(selection)])
                     url = torrent_url(info)
-                    name = info[0]['Title']
-                    name = name_cleanup(name) + '.torrent'
-                    torrent_file(url, name )
+                    #name = info[0]['Title']
+                    #name = name_cleanup(name) + '.torrent'
+                    #torrent_file(url, name )
                     clear_screen()
-                    qbittorrent(name)
-                    subprocess.run('rm ~/Downloads/Torrents/' + name, shell=True)
+                    qbittorrent(url)
+                    #subprocess.run('rm ~/Downloads/Torrents/' + name, shell=True)
 
                     print("Download Started!")
                     time.sleep(2)  # Add a delay for better user experience
