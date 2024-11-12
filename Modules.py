@@ -158,9 +158,9 @@ def search_by_id(imdb_id):
     
     return info
 
-def qbittorrent(file_name):
+def qbittorrent(torrent_url):
     
-    qb.torrents_add(torrent_files='~/Downloads/Torrents/' + file_name)
+    qb.torrents_add(urls=torrent_url)
     
 
 
