@@ -1,6 +1,7 @@
-# DON'T USE THIS
+# There's a version with simpler code
 This program has very confusing code. I had zero idea going into this program on how to propperly order and reuse my code.
-I have created a new repo https://github.com/Rorailer/Movies_to_Torrent_V2 use this instead
+I have created a new repo https://github.com/Rorailer/Movies_to_Torrent_V2. 
+This Works find other then the confusing code :). 
 ---
 # Movies_to_torrent
 A simple program that searches for movies using YTS API , downloads its .torrent file and then automatically starts to download it using qbittorrent web ui.
